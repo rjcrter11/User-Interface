@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5 {
  .top-paragraphs {
 	    
 	 width: 90%; 
-	 margin: 0 auto 5vh auto; 
+	 margin: 0 auto 3vh auto; 
 }
 
 .features {
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5 {
 	height: 18vh; 
 	width: 43%; 
 	position: relative;
-	bottom: 2.85vh; 
+	bottom: 4vh; 
 	right: 4vw; 
 	 
 }
@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5 {
 	height: 18vh; 
 	width: 43%;   
 	position: relative;
-	 bottom: 2.65vh; 
+	 bottom: 4vh; 
 	 left: 1vw; 
 	   
 }
@@ -208,6 +208,7 @@ h1, h2, h3, h4, h5 {
 .top-paragraphs p {
 	font-size: 1.1rem; 
 	line-height: 1.75rem;
+	box-sizing: border-box;
 	padding: .25rem;
 
 }
@@ -218,24 +219,82 @@ h1, h2, h3, h4, h5 {
 	width: 85%; 
 	
 	position: relative; 
-	bottom: 5vh; 
+	bottom: 4vh; 
+}
+
+.bottom-paragraphs p {
+	 box-sizing: border-box;  
+	padding: 0 0.25vw; 
+	font-size: 1rem;
+	line-height: 1.5rem;
+	
+	
+}
+
+.bottom-paragraphs h2 {
+	font-size: 1.25rem;
+	margin-bottom: 2vh; 
 }
 
 .bottom-paragraphs {
-	width: 90%; 
+	border-bottom: 2px solid black; 
+	width: 85%; 
+	height: 22vh; 
+	
+	
 }
 
 .services {
 	display: inline-block; 
-	width: 30%
+ 
+	width: 30%;
+	height: 20vh;
+	box-sizing: border-box;
+	position: relative;
+	 
+	
+	
 }
 
 .product {
 	display: inline-block; 
-	width: 30%
+	width: 33%;
+	height: 20vh;
+	box-sizing: border-box;
+	padding: 0 1vw;
+	position: relative;
+
+
+	
 }
 
 .vision {
 	display: inline-block;
-	width: 30%
+	width: 33%;
+	height: 20vh;
+	box-sizing: border-box;
+	padding: 0 1vw;
+	
+	position: relative;
+	 
+}
+footer {
+	position: relative;
+	height: 20vh; 
+	width: 85%;
+	
+}
+.footer-content h2 {
+	font-size: 1.25rem;
+}
+
+.footer-content p {
+	line-height: 1.5rem;
+	margin-bottom: 2vh; 
+}
+
+.copyright {
+	text-align: center;
+	 
+	
 }
