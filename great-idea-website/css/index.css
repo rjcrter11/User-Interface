@@ -64,3 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 100%; 
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 2vh 5%;
+	  border: 1px solid black;  
+} 
+
+/* Navigation Content */
+.nav-wrapper {
+	display: inline-block;
+	 
+	width: 90%;
+	height: 4vh;
+
+ /* border: 1px solid black;  */
+}
+.nav-wrapper a {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: .85vh; 
+	width: 11vw;
+	height: 3vh;
+	font-size: 1.12rem;
+	text-decoration: none;
+	text-align: center;
+	color: gray;
+	
+	
+	  /* border: 1px solid black;   */
+
+}
+
+.logo {
+	display: inline-block; 
+	top: .75vh;
+	
+	/* border: 1px solid black;  */
+}
+/* End Navigation */
+
+/* Header Content */
+
+.top {
+	border-bottom: 1px solid black; 
+	margin: 5vh 0 5vh 0; 
+	box-sizing: border-box;
+	padding-left: 2vw;
+	padding-bottom: 3vh; 
+	padding-top: 3vh;
+	width: 85%;
+}
+
+.header-wrapper {
+	margin-bottom: .25vh; 
+	display: inline-block; 
+	height: 40vh;
+	width: 40vw;
+	position: relative; 
+  bottom: 1vh; 
+
+
+
+	 /* border: 1px solid black;   */
+}
+
+.header-wrapper h1 {
+	font-size: 5.5rem;
+	letter-spacing: 0.5rem;
+	text-align: center;
+	vertical-align: center;
+	
+	/* border: 1px solid black;  */
+}
+
+.image1 {
+	display: inline-block;
+	/* position: relative; */
+	left: 2%;
+	top: 2.25vh;
+	width: 30vw;
+	height: 40vh;
+	text-align: end;
+	margin: 0 auto;
+	
+
+	/* border: 1px solid black; */
+}
+.button {
+	display: inline-block;
+	width: 11vw;
+	height: 3vh;
+	position: relative;
+	left: 13.5vw;
+
+
+	border: 1.5px outset lightgray;
+}
+.button span {
+	text-align: center;
+	font-size: .75rem;
+}
+
+/* End Header */
+
+/* Main Content */
+
+section {
+	border: 1px solid black; 
+	 width: 85%; 
+}
+
+.features {
+	border: 1px solid black; 
+	display: inline-block; 
+	height: 15vh; 
+	width: 47%; 
+}
+
+.about {
+	border: 1px solid black; 
+	display: inline-block;
+	height: 15vh; 
+	width: 47%; 
+	position: relative;
+	left: 3vw; 
+	
+}
+
