@@ -68,48 +68,38 @@ h1, h2, h3, h4, h5 {
 
 * {
 	box-sizing: border-box;
-	border: 3px solid gray; 
 	max-width: 100%;
 }
 
 .container {
 	width: 100%; 
-	margin: 0 auto;
-	padding: 2vh 4%;
-	  /* border: 1px solid black;   */
+	margin: 0 auto; 
+  padding: 2vh 4%; 
 } 
 
 /* Navigation Content */
 .nav-wrapper {
 	display: inline-block;
-	 margin: 0 auto; 
 	width: 100%;
 	height: 4vh;
-	
-
 }
 .nav-wrapper a {
 	display: inline-block;
-	margin: 0 auto; 
-	vertical-align: top;
-	margin-top: .85vh; 
-	width: 10vw;
+	vertical-align: top; 
+	margin: .85vh 1vw 0 1.5vw; 
+	width: 9vw;
 	height: 3vh;
-	font-size: 1.12rem;
+	font-size: 1.15rem;
 	text-decoration: none;
-	text-align: center;
+	text-align: left;
 	color: gray;
-	
-	
-	   
-
 }
 
 .logo {
 	display: inline-block; 
-	margin-left: 3vw;
-	
-	
+	margin-left: 2vw; 
+	width: 200px;
+	height: 36px; 
 }
 /* End Navigation */
 
@@ -118,149 +108,136 @@ h1, h2, h3, h4, h5 {
 .top {
 	 border-bottom: 2px solid black;  
 	 margin-top: 6vh;  
-	 height: 47vh; 
-	width: 81%;	
+	 height: 52vh; 
+	 width: 100%;	
 }
 
 /* Left Image */
 .header-wrapper {
 	display: inline-block; 
 	height: 36vh;
-	width: 40vw;
-	 margin-top: 3vh;   
-	
-
+	width: 45vw;
+	margin-top: 3vh;   
 }
 .header-wrapper h1 {
-	font-size: 4.5rem;
-	letter-spacing: 0.5rem;
+	font-size: 5rem;
+	letter-spacing: 0.75rem;
 	text-align: center;
-	margin-bottom: 4vh;
-	
+	margin-left: 5vw;
+	margin-bottom: 4vh; 
 }
 
-/* Right Image */
-.image1 {
-	display: inline-block;
-	width: 30vw;
-	height: 40vh;
-	text-align: end;
-	margin-left: 4vw; 
-	margin-bottom: 3vh; 
-	
-	
-}
 /* Button Styles */
 .button {
-	width: 11vw;
+	width: 16vw;
 	height: 3vh;
-	margin-left: 14vw; 
-	 border: 1.5px outset lightgray; 
+	margin-left: 16vw; 
+	margin-bottom: 3vh; 
+	border: 1px solid black; 
 }
 .button span {
 	text-align: center;
 	font-size: .75rem;
 }
 
-/* End Header */
+/* Right Image */
+.image1 {
+	display: inline-block;
+	width: 38vw;
+	height: 45vh;
+	text-align: end;
+	margin-left: 6vw; 
+}
 
 /* Main Content */
 
 /* Top paragraph box styles */
 
  .top-paragraphs {    
-	 width: 81%;   
-	 margin: 4vh 10vw 0 0;
+	 width: 100%;   
+	 margin: 4vh 10vw .5vh 0;
 	 height: 20vh;   
 }
 
 .top-paragraphs div {
 	display: inline-block;
 	height: 20vh; 
-	width: 49%; 	 
+	width: 48%; 	 
 }
 .features {
-	margin-right: 1vw; 
+	margin-right: 1.75vw; 
 }
 
-/* Top paragraph font styles */
-
+/* Top Paragraph Font Styles */
+.top-paragraphs {
+	padding-right: 2vw; 
+}
 .top-paragraphs h2 {
 	font-size: 1.5rem; 
 }
 .top-paragraphs p {
 	font-size: 1.1rem; 
 	line-height: 1.75rem;
-	padding: .15rem;
 }
 
-
+/* Image Styles */
 
 .middle-img {
-	width: 81%; 
+	width: 100%; 
 	margin-bottom: 4.75vh; 
 }
 
-.bottom-paragraphs p {
-  
-	padding: 0 0.25vw; 
-	font-size: 1.1rem;
-	line-height: 1.5rem;
-	
-	
-}
-.bottom-paragraphs div {
-	display: inline-block; 
-	 
-	width: 32%;
-	height: 20vh; 
-
-
-}
-
-.bottom-paragraphs h2 {
-	font-size: 1.25rem;
-	margin-bottom: 2vh; 
-}
-
+/* Bottom Paragraph Box Styles */
 
 .bottom-paragraphs {
 	border-bottom: 2px solid black; 
-	width: 81%; 
+	width: 100%; 
 	height: 22vh; 
 	margin-bottom: 2vh; 
-	
+	}
+.bottom-paragraphs div {
+	display: inline-block; 
+	width: 32%;
+	height: 20vh; 
 }
- 
 .services {
 	margin-right: 1vw; 
 }
-
  .product {
 	margin-right: 1vw; 
 } 
 
+/* Bottom Paragraph Font Styles */
+
+.bottom-paragraphs p {
+	padding: 0 0.25vw; 
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+}
+
+.bottom-paragraphs h2 {
+	font-size: 1.5rem;
+	margin-bottom: 2vh; 
+}
+
+/* Footer */
   
 footer {
-	height: 20vh; 
+	height: 25vh; 
 	width: 85%;
-	margin-top: 3vh; 
-	margin-bottom: 3vh; 
-	
+	margin-top: 5.5vh; 
+	margin-bottom: 2vh; 
 }
 .footer-content h2 {
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 }
-
 .footer-content p {
 	line-height: 1.5rem;
-	margin-bottom: 4vh; 
+	margin-bottom: 3vh; 
+	font-size: 1.2rem; 
 }
-
 .copyright {
 	text-align: center;
+	font-size: 1.2rem;
+	margin-left: 10vw; 
 }
-
-
-/* Get rid of position, just use break tags after element tag */
-/* universal selector and images, try max-width: 100% */
