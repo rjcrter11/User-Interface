@@ -50,12 +50,13 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 		box-sizing: border-box;
-	 ;  
+	  
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+		font-family: 'Titillium Web', sans-serif;
+		max-width: 100%;   
 }
 
 h1, h2, h3, h4, h5 {
@@ -161,12 +162,9 @@ h1, h2, h3, h4, h5 {
 
 
 /* Right Image */
-.image1 {
+.middle-img {
 	display: inline-block;
-	width: 38vw;
-	height: 45vh;
-	text-align: end;
-	margin-left: 6vw; 
+	max-width: 100%	
 }
 
 /* Main Content */
@@ -244,9 +242,9 @@ h1, h2, h3, h4, h5 {
   
 footer {
 	height: 25vh; 
-	width: 85%;
-	margin-top: 5.5vh; 
-	margin-bottom: 2vh; 
+	width: 100%;
+	padding-top: .5vh;
+	margin-bottom: 2vh; 	
 }
 .footer-content h2 {
 	font-size: 1.5rem;
@@ -259,5 +257,5 @@ footer {
 .copyright {
 	text-align: center;
 	font-size: 1.2rem;
-	margin-left: 10vw; 
+	margin: 3vh 6vw 3vh 0; 
 }
