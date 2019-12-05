@@ -212,8 +212,8 @@ h1, h2, h3, h4, h5 {
 .bottom-paragraphs {
 	border-bottom: 2px solid black; 
 	width: 100%; 
-	height: 22vh; 
-	margin-bottom: 2vh; 
+	height: 24vh; 
+	margin-bottom: 3vh; 
 	}
 .bottom-paragraphs div {
 	display: inline-block; 
